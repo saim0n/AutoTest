@@ -40,7 +40,7 @@ public class AutoTest {
         WebElement loginInput = driver.findElement(By.name("login"));
         loginInput.sendKeys("alex_tip_333@mail.ru");
         WebElement passwordInput = driver.findElement(By.name("password"));
-        passwordInput.sendKeys("PLT12fb98");
+        passwordInput.sendKeys("***********");
         passwordInput.sendKeys(Keys.ENTER);
         driver.quit();
     }
